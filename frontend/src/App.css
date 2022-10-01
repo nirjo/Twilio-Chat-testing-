@@ -1,3 +1,48 @@
+
+
+
+
+
+
+
+
+.Dashboard{
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #FFFFFF;
+}
+.messagepanel{
+  /* Messages Panel */
+
+
+position: absolute;
+width: 427px;
+height: 957px;
+left: 159px;
+top: 73px;
+
+/* White */
+
+background: #FFFFFF;
+box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.08);
+}
+
+.chatpanel{
+  /* Message Panel */
+
+
+position: absolute;
+width: 1333px;
+height: 1024px;
+left: 587px;
+top: 72px;
+
+background: #FFFFFF;
+}
+
+/* -------------- */
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -91,12 +136,12 @@
 }
 .chatHeader{
   width: 100%;
-  background-color: #9ea1a8;
+  background-color: #FFFFFF;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding: 20px;
   box-sizing: border-box;
-  color: white;
+  color: black;
   font-weight: 600;
 }
 .chatFooter{
@@ -127,7 +172,7 @@
   padding: 20px 10px;
   border-bottom-right-radius: 20px;
   font-weight: 600;
-  color: #9ea1a8;
+  color: #009688;
   cursor: pointer;
 }
 .chatFooter button:hover{
